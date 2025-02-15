@@ -3,7 +3,7 @@ Original fdclib source zip file can be found at https://www.ibiblio.org/pub/micr
 There is no much informaion for this original package. Neither OS environment nor Compiler information.
 However, the original file format is Unix-like type (file end with LF). And from 'makefile' content may guest it is using Watcom C and Nasm assembler as develomment tools.
 
-My target is to let this library could be created on 16 bit DOS environment.
+My target is to modify the source files in order to let this library could be created at 16 bit DOS environment.
 
 Steps:
    1. Change all source files from Unix-like format (LF) to DOS format (CR/LF).
